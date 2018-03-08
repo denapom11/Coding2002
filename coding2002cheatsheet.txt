@@ -1,0 +1,19 @@
+virtualenv Coding2002venv python=python3
+
+source Coding2002venv/bin/activate
+
+git clone https://github.com/denapom11/Coding2002.git
+
+pip install -r requirements.txt
+
+Lab Network Address: 128.107.93.228:20116
+Username: mdenapol
+Password: TaRcP5jD
+
+CSRV1000V Credentials and Information:
+Username: cisco
+Password: cisco_1234!
+CSR1000V Host: 10.10.20.48  (After VPN connection)
+SSH Port: 22
+NETCONF Port: 830
+RESTCONF Ports: 443
