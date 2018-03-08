@@ -12,8 +12,8 @@ logging.warning('This is a warning message. You should see this in the file.')
 
 
 try:
-	resp = requests.get("https://thisurlwontwork.com",headers=headers,params="",verify = False)
+	resp = requests.get("http://maps.googleapis.com/maps/api/geocode/json?address=sanjose",verify = False)
 	response_json = resp.json()
-	logging.info("Status: ",resp.status_code)
+	logging.info("Status: " + str(resp.status_code))
 except:
 	logging.error("Something wrong with GET /host request!")

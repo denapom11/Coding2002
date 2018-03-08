@@ -1,4 +1,0 @@
-03/09/2018 08:45:53 AM DEBUG: This is a debug message. You should see this in the file.
-03/09/2018 08:45:53 AM INFO: This is an info message. You should see this in the file.
-03/09/2018 08:45:53 AM WARNING: This is a warning message. You should see this in the file.
-03/09/2018 08:45:53 AM ERROR: Something wrong with GET /host request!
